@@ -2,16 +2,17 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<meta name="vieport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Языковые курсы Delfi Training в Бишкеке</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css">
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 	
 </head>
 <body>
 	
-	<header class="header">
+	<header class="header">qweqwe12312d
 		<section class="header__top">
 			<div class="logo__img">
 			<img class="logo" src="css/assets/image/Logo.png" alt="Logo">
@@ -22,9 +23,9 @@
 					<a href="#">Наша команда</a>
 					<a href="#">Отзывы</a>
 					<a href="#">Котакты</a>
-					<a href="#"><img src="css/assets/icon/whatsapp.png" alt="WhatsApp" class="social"></a>
-					<a href="#"><img src="css/assets/icon/instagram.png" alt="Instagram" class="social"></a>
-					<a href="#"><img src="css/assets/icon/facebook.png" alt="Facebook" class="social"></a>
+					<a href="https://api.whatsapp.com/send?phone=996755125035" target="_blank"><img src="css/assets/icon/whatsapp.png" alt="WhatsApp" class="social"></a>
+					<a href="https://www.instagram.com/delfi_training/" target="_blank"><img src="css/assets/icon/instagram.png" alt="Instagram" class="social"></a>
+					<a href="https://www.facebook.com/delfi.training/" target="_blank"><img src="css/assets/icon/facebook.png" alt="Facebook" class="social"></a>
 					<a href="#" id="menu" class="icon">&#9776</a>
 				</div>
 			</nav>
@@ -40,12 +41,12 @@
 	
 		<main>
 			<div class="container">
-				<section class="text_info">
+				<section class="text_info mob">
 					<div class="title__info">
 						<h3>«Мы делаем все необходимое,<br> чтобы вы получили<br> качественное образование».</h3>
 					</div>
 					<div class="history__company">
-						<p class="history__company text__his">Наш учебный центр открыл свои двери в 2004 году<br> и за этот период мы:</p>
+						<p class="history__company text__his">Наш учебный центр открыл свои двери в 2004 году и за этот период мы:</p>
 						<ul class="history__company text__his2">
 							<li>Обучили 13244 человек немецкому и английскому языку.</li>
 							<li>Отправили 6753 человек в Германию и Австрию.</li>
@@ -56,22 +57,22 @@
 				</section>
 			</div>
 
-			<section class="training"><a name="training_a"></a>
+			<section class="training mob"><a name="training_a"></a>
 				<div class="container">
 					<h2>Обучение</h2>
 					<p>Выберете подходящий для себя курс!</p>
 					<div class="training__column">
-						<div class="column">
+						<div class="column column-item1">
 							<img class="col" src="css/assets/image/flag1.jpg" alt="Немецкий язык">
-							<h4 class="col tongue">Немецкий язык</h4>
+							<h4 class="col tongue">Немецкий<br> язык</h4>
 							<p class="col price">2000 сом</p>
 							<div class="col training__title">
 								<p class="price__time">в месяц</p>
 								<p class="training__text">Все уровни немецкого языка. Обучение проходит 3 раза в неделю по 80 минут, в небольших группах (10 человек) Теория + практика Преподаватели имеют большой опыт в обучении и регулярно проходят повышение квалификации в Европе.</p>
 							</div>
-							<button class="training__btn"><a href="#">Записаться</a></button>
+							<button onclick="show('block')" class="training__btn">Записаться</button>
 						</div>
-						<div class="column">
+						<div class="column column-item2">
 							<img class="col" src="css/assets/image/flag2.jpg" alt="Немецкий язык">
 							<h4 class="col tongue">Английский язык</h4>
 							<p class="col price">1500 сом</p>
@@ -79,19 +80,19 @@
 								<p class="price__time">в месяц</p>
 								<p class="training__text">Все уровни английского языка. Обучение проходит 3 раза в неделю по 80 минут, в небольших группах (10 человек) Теория + практика</p>
 							</div>
-							<button class="training__btn"><a href="#">Записаться</a></button>
+							<button class="training__btn" onclick="show('block')">Записаться</button>
 						</div>
-						<div class="column">
+						<div class="column column-item3">
 							<img class="col" src="css/assets/image/pen.jpg" alt="Немецкий язык">
-							<h4 class="col tongue">ОРТ подготовка</h4>
+							<h4 class="col tongue">ОРТ<br> подготовка</h4>
 							<p class="col price">3000 сом</p>
 							<div class="col training__title">
 								<p class="price__time">в месяц</p>
 								<p class="training__text">Подготовка идет по основным предметам (математика, русский) График занятий: 3 раза в неделю по 2 урока Курс длится три месяца. После окончания обучения, вы сдаете пробный тест.</p>
 							</div>
-							<button class="training__btn"><a href="#">Записаться</a></button>
+							<button class="training__btn" onclick="show('block')">Записаться</button>
 						</div>
-						<div class="column">
+						<div class="column column-item4">
 							<img class="col" src="css/assets/image/book.jpg" alt="Немецкий язык">
 							<h4 class="col tongue">Школьная программа с 1 по 11 класс</h4>
 							<p class="col price">300 сом</p>
@@ -99,13 +100,13 @@
 								<p class="price__time">в час</p>
 								<p class="training__text">Все школьные предметы. Занятия проходят индивидуально.</p>
 							</div>
-							<button class="training__btn"><a href="#">Записаться</a></button>
+							<button class="training__btn" onclick="show('block')">Записаться</button>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section class="our__team">
+			<section class="our__team mob">
 				<div class="container">
 					<h2>Наша команда</h2>
 					<div class="team">
@@ -130,7 +131,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="feedback">
+			<section class="feedback mob">
 				<div class="container">
 					<h2>Отзывы наших учеников</h2>
 					<div class="feedback__box">
@@ -164,7 +165,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="contacts">
+			<section class="contacts mob">
 				<div class="container">
 					<div class="contacts__box">
 						<div class="left__item">
@@ -174,12 +175,12 @@
 							<p class="con con__phone">Телефон: <span>+996 505 125 035</span></p>
 							<p class="con con_mail">Email: <span>delfi-t@mail.ru</span></p>
 							<div class="social__klik">
-								<a href="#"><img src="css/assets/icon/whatsapp__black.png" alt="WhatsApp" class="social"></a>
-								<a href="#"><img class="instagram__black" src="css/assets/icon/instagram__black.png" alt="Instagram" class="social"></a>
-								<a href="#"><img src="css/assets/icon/facebook__black.png" alt="Facebook" class="social"></a>
+								<a href="https://api.whatsapp.com/send?phone=996755125035" target="_blank"><img src="css/assets/icon/whatsapp__black.png" alt="WhatsApp" class="social"></a>
+								<a href="https://www.instagram.com/delfi_training/" target="_blank"><img class="instagram__black" src="css/assets/icon/instagram__black.png" alt="Instagram" class="social"></a>
+								<a href="https://www.facebook.com/delfi.training/" target="_blank"><img src="css/assets/icon/facebook__black.png" alt="Facebook" class="social"></a>
 							</div>
 							
-							<button class="btn__mail"><a href="#">Написать письмо</a></button>
+							<button class="btn__popup" onclick="show('block')">Написать письмо</button>
 
 						</div>
 						<div class="right__item">
@@ -189,6 +190,42 @@
 				</div>
 			</section>
 		</main>
+		
+		<div onclick="show('none')" id="gray"></div>
+	<div  id="popup">
+		<!-- Картинка крестика -->
+		<img class="close" src="css/assets/icon/close.png" alt="" onclick="show('none')">
+		<div class="form">
+			<form id="form" action="" method="post">
+				<legend>Оформите заявку и мы вам перезвоним.</legend>
+				<div>
+					<label for="username-field">Имя</label>
+					<input id="username-field" tabindex="1" placeholder="Имя" type="text" name="username" value="">
+				</div>
+				<div>
+					<label for="usertel-field">Телефон *</label>
+					<input id="usertel-field" tabindex="2" placeholder="Телефон" type="text" name="phone" required pattern="[+]{1}[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}[0-9]{2}" value="+996">
+				</div>
+				<div>
+					<label for="email-field">Email</label>
+					<input id="email-field" tabindex="3" placeholder="Email" type="email" name="usermail" value="">
+				</div>
+				<div>
+					<button formaction="http://serega_shkret_91@mail.ru" tabindex="4" type="submit">Отправить</button>
+				</div>
+			</form>
+			<script>
+			//Функция показа
+				function show(state)
+				{
+				document.getElementById('popup').style.display = state;	
+				document.getElementById('gray').style.display = state; 		
+				}	
+			</script>
+		</div>
+	</div>
+
+
 		<footer class="footer">
 			<div class="container">
 				<div class="footer__items">
@@ -208,8 +245,8 @@
 				</div>
 			</div>
 		</footer>
-	
-
+		
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
 	<script src="script.js"></script>
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
